@@ -1,41 +1,49 @@
 # Jeylabs code reviews(C#)
 
+## General Directions
 
-## Goal
-
-* Build a small web site in C#.
-* Use any front end  library you want. 
-
-### It must:
-
-* Fetch and display a list of people via a network request
-* Clicking a person should show more details
-* Allow adding a person
-* Allow editing the details
-* Allow delete of a person
-
-### It can:
-
-* Store the result in a database (but not essential)
-* Allow additional functionality not described here
-
-
-
-### Other implementations:
-
-* Membership Login System(include validation for user input)
-* Connect to SQL database and store the result
-* Additional member list page include all infomation about membership
 <br/>
+Complete the following puzzle in C# as either a web or mobile application. Your completed solution must be able to be built in Visual Studio 2017 without additional software or commercial add-ons (NuGet packages/NPM Packages & Angular is allowed).   
 
-# Default Login info
-* Username: admin
-* Password: admin
-<br/>
+* All code should be considered ready for production!
 
-To manage this login system, some kind of authorization is required. As a result, I implement a login system using Username and Password data within SQL database. Matching username and password will give user authorization to enter the main control page to check and manage the data within SQL database.
-<br/>
+## Submissions
+Share a private Bitbucket or GitHub repository containing your solution with jeylabscodereviews.  
 
-Since this is the first time I use VS build in SQL database. I watched some video and online resource to learn database connecting, loading, altering method.
+## The Problem 
+Write a program that lets the user generate a shape with the dimensions of their choosing using a semi-natural language interface. Your solution must have two components – a “front-end” and a “back-end”.  
 
+## User Story  
+As a user I want to generate shapes with natural language so that I don’t have to enter values in boxes  
+
+## Acceptance Criteria  
+The user should specify what to draw using natural language. To keep things simple, we’ll fix the allowed format to the following: `Draw a(n) <shape> with a(n) <measurement> of <amount> (and a(n) <measurement> of <amount>) `
+
+Here are some examples:  
+* Draw a circle with a radius of 100  
+* Draw a square with a side length of 200  
+* Draw a rectangle with a width of 250 and a height of 400  
+* Draw an octagon with a side length of 200  
+* Draw an isosceles triangle with a height of 200 and a width of 100  
+ 	 
+The following shapes should be supported:  
+* Isosceles Triangle  	 
+* Square  
+* Scalene Triangle  		
+* Parallelogram  
+* Equilateral Triangle  	 
+* Pentagon  
+* Rectangle 
+* Hexagon  
+* Heptagon  
+* Octagon  
+* Circle  	 
+* Oval
+
+The input parsing should happen in the back-end.  
+Once the user enters the information, the shape should be displayed on the screen.  
+Distances are in pixels.
+
+## Optional  
+If you thought that was too easy, add support for some 3D shapes.  
 
