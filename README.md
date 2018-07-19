@@ -3,7 +3,7 @@
 ## General Directions
 
 <br/>
-Complete the following puzzle in C# as either a web or mobile application. Your completed solution must be able to be built in Visual Studio 2017 without additional software or commercial add-ons (NuGet packages/NPM Packages & Angular is allowed).   
+Complete the following puzzle in C#. Your completed solution must be able to be built in Visual Studio 2017 without additional software or commercial add-ons (NuGet packages/NPM Packages & Angular is allowed).   
 
 * All code should be considered ready for production!
 
